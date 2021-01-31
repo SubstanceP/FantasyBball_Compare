@@ -67,7 +67,6 @@ if st.button('Intercorrelation Heatmap'):
         ax = sns.heatmap(corr, mask=mask, vmax=1, square=True)
     st.pyplot(fig)
 
-print(df_selected_team)
 
 # if st.button('Bar'):
 #     df_selected_team.to_csv('output.csv',index=False)
